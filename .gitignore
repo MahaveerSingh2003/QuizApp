@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# React specific
+*.local
+
+# XAMPP/WAMP/MAMP or PHP server-specific files
+# (These are local server config files, not needed in repo)
+php-backend/*.log
+php-backend/*.tmp
+php-backend/.htaccess
+
+# Ignore screenshots and other local assets (optional)
+# screenshots/
+
+# Ignore compiled PHP files (if any)
+*.php~
+
+# Ignore backup files
+*~
+
+# Ignore coverage reports
+coverage/
+
+# Ignore test output
+junit.xml
+
+# Ignore Mac system files
+.AppleDouble
+.LSOverride
+
+# End of .gitignore 
